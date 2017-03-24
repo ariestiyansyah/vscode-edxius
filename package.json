@@ -1,0 +1,22 @@
+{
+    "name": "vscode-edxius",
+    "displayName": "vscode-edxius",
+    "description": "Darth edXius vscode",
+    "version": "0.0.1",
+    "publisher": "ariestiyansyah",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vscode-edxius",
+                "uiTheme": "vs",
+                "path": "./themes/edxius.tmTheme"
+            }
+        ]
+    }
+}
